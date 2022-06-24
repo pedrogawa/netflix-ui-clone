@@ -1,6 +1,11 @@
-.App {
-  text-align: center;
+:root {  
+  --red: #e50914;  
+  --blue: #0071eb;
 }
+
+/* .App {
+  text-align: center;
+} */
 
 .App-logo {
   height: 40vmin;
