@@ -1,0 +1,78 @@
+.send-email {
+  max-width: 980px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+
+  margin-top: 2rem;
+
+  flex-direction: column;
+}
+
+.send-email > span  {
+  font-size: 1.3rem;
+
+  margin-bottom: 1rem;
+}
+
+.send-email-form-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: row;
+}
+
+.send-email-form-button > input {
+  min-width: 500px;
+  height: 70px;
+  padding: 0 0.6rem;
+}
+
+.send-email-form-button > input::placeholder {
+  font-size: 1.1rem;
+}
+
+.get-started-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--red);
+  border: none;
+
+  padding: 0 2rem;
+
+  font-size: 2rem;
+
+  border-radius: 0.2rem;
+
+
+      min-height: 74px;
+  min-width: 74px;
+
+  color: #fff;
+}
+
+@media (max-width: 950px) {
+  .send-email-form-button {
+    flex-direction: column;
+  }
+
+  .send-email > span {
+    margin-top: 1.5rem;
+
+    font-size: 1.6rem;
+  }
+
+  .get-started-button {
+    margin-top: 1rem;
+
+    padding: 0 1rem;
+
+    min-height: 40px;
+    font-size: 1.2rem;
+  }
+
+}

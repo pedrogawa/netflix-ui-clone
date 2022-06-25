@@ -3,9 +3,10 @@
   --blue: #0071eb;
 }
 
-/* .App {
-  text-align: center;
-} */
+.App {
+  background-color: black;
+
+}
 
 .App-logo {
   height: 40vmin;

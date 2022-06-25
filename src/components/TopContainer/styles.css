@@ -106,44 +106,6 @@
   line-height: 4rem;
 }
 
-.send-email {
-  max-width: 980px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.send-email > input {
-  min-width: 500px;
-  height: 70px;
-  padding: 0 0.6rem;
-}
-
-.send-email > input::placeholder {
-  font-size: 1.1rem;
-}
-
-.get-started-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background-color: var(--red);
-  border: none;
-
-  padding: 0 2rem;
-
-  font-size: 2rem;
-
-  border-radius: 0.2rem;
-
-
-      min-height: 74px;
-  min-width: 74px;
-
-  color: #fff;
-}
-
 
 .get-started-button > span {
   margin-right: 0.6rem;
@@ -170,15 +132,6 @@
 @media (max-width: 950px) {
   .send-email {
     flex-direction: column;
-  }
-
-  .get-started-button {
-    margin-top: 1rem;
-
-    padding: 0 1rem;
-
-    min-height: 40px;
-    font-size: 1.2rem;
   }
 
   .mid-content > span {

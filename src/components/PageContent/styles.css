@@ -6,7 +6,6 @@
   width: 100%;
 
 
-  background-color: black;
 
 }
 
@@ -75,6 +74,14 @@
 @media (max-width: 950px) {
   .page-content-wrapper {
     flex-direction: column;
+  }
+
+  .page-content-wrapper.row-reversed {
+    flex-direction: column;
+  }
+
+  .right-content.images {
+    padding-right: 0rem;
   }
 
   .left-content {

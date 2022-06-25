@@ -1,0 +1,21 @@
+.footer-container {
+  color: #757575;
+  padding: 70px 45px;
+  
+}
+
+.footer-header {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.footer-header > span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-header > span::before {
+  content: " ";
+  white-space: pre;
+}

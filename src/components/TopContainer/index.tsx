@@ -1,6 +1,6 @@
 import "./styles.css";
 
-import { AiOutlineRight } from "react-icons/ai";
+import FormEmail from "../FormEmail";
 
 export default function TopContainer() {
   return (
@@ -36,18 +36,8 @@ export default function TopContainer() {
           </div>
           <div className="mid-content">
             <span>Watch anywhere. Cancel anytime.</span>
-            <span>
-              Ready to watch? Enter your email to create or restart your
-              membership.
-            </span>
           </div>
-          <div className="send-email">
-            <input placeholder="Email address" />
-            <button className="get-started-button">
-              <span>Get Started</span>
-              <AiOutlineRight size={26} />
-            </button>
-          </div>
+          <FormEmail />
         </div>
       </div>
     </div>

@@ -1,7 +1,9 @@
 import "./App.css";
 
 import Border from "./components/Border";
+import Footer from "./components/Footer";
 import PageContent from "./components/PageContent";
+import FAQComponent from "./components/FAQComponent";
 import TopContainer from "./components/TopContainer";
 import ImageComponent from "./components/ImageComponent";
 import VideoComponent from "./components/VideoComponent";
@@ -53,6 +55,9 @@ function App() {
         Component={<ImageComponent isForKids={true} />}
       />
       <Border />
+      <FAQComponent />
+      <Border />
+      <Footer />
 
       {/* <header className="App-header">
         <img src={netflix} alt="Netflix" />
