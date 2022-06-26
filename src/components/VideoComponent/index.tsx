@@ -20,7 +20,7 @@ export default function VideoComponent({
           isSmaller ? "smaller" : ""
         }`}
       >
-        <video className="right-content-video">
+        <video className="right-content-video" autoPlay playsInline muted loop>
           <source src={video} type="video/mp4" />
         </video>
       </div>

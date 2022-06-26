@@ -1,5 +1,7 @@
 import "./styles.css";
 
+import { TbWorld } from "react-icons/tb";
+
 import FormEmail from "../FormEmail";
 
 export default function TopContainer() {

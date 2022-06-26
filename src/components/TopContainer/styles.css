@@ -11,7 +11,6 @@
   
 }
 
-
 .wrapper {
   width: 100%;
   background: rgba(0,0,0,.4);
@@ -40,7 +39,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
 
+.select-signin-container > select {
+  background-color: black;
+  color: white;
+  padding: 0.6rem 0rem;
+
+  border: 1px white solid;
+}
+
+.footer-header > select > option::before {
+  content: "aaa";
+  white-space: pre;
 }
 
 .sign-in-button {
